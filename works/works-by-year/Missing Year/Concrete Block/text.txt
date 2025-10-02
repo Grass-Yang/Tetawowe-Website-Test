@@ -1,0 +1,7 @@
+title: Concrete Box
+project-type: Residential
+team: xxxxx
+location: xxxxx
+project-year: xxxxx
+
+description: The Concrete Box is a privately owned unit in a sequence of townhouses. It is a low-budget renovation that involves the process of inserting a complete separate piece of space into the existing space.

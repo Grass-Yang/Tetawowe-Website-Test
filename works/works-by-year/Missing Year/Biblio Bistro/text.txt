@@ -1,0 +1,7 @@
+title: Biblio Bistro
+project-type: Restaurant
+team: xxxxx
+location: xxx
+project-year: xxxxx
+
+description: xxxx
