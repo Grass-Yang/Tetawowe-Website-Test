@@ -1,0 +1,95 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0px;
+      background: #fff;
+      text-align: center;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .text {
+    padding: 20px 358px 75px 362px;
+    font-size: 15px;
+    color: #333;
+    text-align: left;        /* 确保文字左对齐 */
+}
+
+    .first img{
+      display: block;
+      max-width: 965px;
+      width: 100%;
+      height: 95%;            /* 保持比例 */
+     margin: 0 auto;          /* 居中 */
+    }
+
+    .gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 230px); /* 一行4个 */
+  gap: 15px; /* 格子之间的间隔 */
+  justify-content: start; /* 左对齐，可改成center居中 */
+  padding: 20px 358px 50px 362px;
+  row-gap: 35px;    /* 控制上下间距（每一行之间） */
+}
+
+.top-150 {
+  margin-top: 150px;
+}
+
+.top-75 {
+  margin-top: 75px;
+}
+
+.item img {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+}
+
+
+.name {
+  margin: 12px 0;
+  text-align: left;
+  font-size: 16px;
+  line-height: 0.75;
+}
+
+.desc {
+  font-size: 10px;
+  line-height: 0.4;
+  text-align: left;
+}
+
+
+.friends {
+  margin: 80px auto;
+  max-width: 965px;
+  display: flex;
+  flex-wrap: wrap;   /* 自动换行 */
+  justify-content: center; /* 整体居中 */
+  text-align: center;
+}
+
+.friends .member {
+  flex: 0 1 auto; /* 宽度自适应，允许收缩 */
+  min-width: 10px; /* 避免太小 */
+}
+
+.friends .name {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.friends .desc {
+  font-size: 10px;
+  color: #555;
+  margin: 0;
+}
+
+.friends .dot {
+  margin: 0 15px;
+  color: #797979;
+  font-weight: bold;
+}
