@@ -1,0 +1,57 @@
+/* 基础重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+.text {
+    padding: 50px 365px 0px 365px;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Works 标题 */
+.works-title {
+    font-weight: normal;
+    font-size: 18px;
+    margin: 40px 0 10px 365px;
+    color: #000000;
+}
+
+/* 网格布局 */
+#works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+    gap: 30px;
+    padding: 0 365px 150px 365px;
+}
+
+/* 每个项目 */
+.project-item {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+}
+
+.project-item img {
+    width: 175px;
+    height: 175px;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
