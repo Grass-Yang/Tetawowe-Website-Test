@@ -1,0 +1,7 @@
+title: Tea House - Genting
+project-type: Retail, Restaurant
+team: xxxxx
+location: xxxxx
+project-year: xxxxx
+
+description: xxxx
