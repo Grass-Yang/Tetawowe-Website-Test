@@ -1,0 +1,7 @@
+title: Capsule by Container Hotel - Penang
+project-type: Retail, Residential
+team: Wong Wei Ping, Balqis Tajali
+location: Penang
+project-year: xxxxx
+
+description: 
